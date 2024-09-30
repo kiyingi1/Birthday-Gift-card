@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+            font-family: "Happy Monkey", system-ui;
+            font-weight: 400;
+            font-style: normal;
+            /* pink: #EFB0C9 blue: #a2d2ff white: #ffffff */
+    background-color: #a2d2ff;   
+    color: azure;     
+    background: linear-gradient(#a2d2ff,pink);
+
+    }
+#bd-age {
+     text-shadow: 0px 0px 1px black;
+    background: #EFB0C9;
+    padding: 5px 10px;
+        border-radius: 5px;
+        margin: 5px 0 10px 0
+ }
+#bd-date {
+     text-shadow: 0px 0px 1px black;
+    background: #EFB0C9;
+    padding: 5px 10px;
+        border-radius: 5px;
+        margin: 5px 0 10px 0
+ } 
+
+ h1,p {
+    text-shadow: 0px 0px 1px black;
+}
+#bff-img{
+    border-radius: 50%; 
+    border: 6px solid #EFB0C9;
+    border-color: #efb0c9;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-part {
+    margin-top: 50px;
+}
+
+.gift-msg {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://cdn.vectorstock.com/i/1000v/92/49/gold-ribbon-on-pink-background-gift-box-cover-vector-4659249.jpg");
+    background-size: cover;
+}
+#gift-img-happy:hover {
+    background-image: url("happy.gif");
+}
+#gift-img-hot:hover {
+    background-image: url("hot.gif");
+}
+#gift-img-cheers{
+    height: 200px;
+}
+#gift-img-cheers:hover {
+    background-image: url("cheers.gif");
+}
+#footer{
+    font-style: italic;
+    width: 400px;
+    margin: 0 auto 20px;
+}
+a{
+    color: white;
+}
